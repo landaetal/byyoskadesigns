@@ -13,7 +13,7 @@ MOBILE FIRST
   }
   @font-face {
     font-family: Merienda-One;
-    src: url("/font/MeriendaOne-Regular.ttf");
+    src: url("../font/MeriendaOne-Regular.ttf");
   }
   /*****PROPIEDADES HEADER*****/
 
@@ -23,7 +23,7 @@ MOBILE FIRST
     padding-bottom: 30px;
     color: rgb(80, 69, 69);
     font-size: 5mm;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
   }
   header a {
@@ -138,7 +138,7 @@ MOBILE FIRST
   footer {
     grid-area: footer;
     text-align: center;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
     color: rgb(80, 69, 69);
   }
@@ -231,7 +231,7 @@ MOBILE FIRST
   }
   @font-face {
     font-family: Merienda-One;
-    src: url("/font/MeriendaOne-Regular.ttf");
+    src: url("../font/MeriendaOne-Regular.ttf");
   }
   /*****PROPIEDADES HEADER*****/
 
@@ -241,7 +241,7 @@ MOBILE FIRST
     padding-bottom: 30px;
     color: rgb(80, 69, 69);
     font-size: 5mm;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
   }
   header a {
@@ -356,7 +356,7 @@ MOBILE FIRST
   footer {
     grid-area: footer;
     text-align: center;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
     color: rgb(80, 69, 69);
   }
@@ -449,7 +449,7 @@ MOBILE FIRST
   }
   @font-face {
     font-family: Merienda-One;
-    src: url("/font/MeriendaOne-Regular.ttf");
+    src: url("../font/MeriendaOne-Regular.ttf");
   }
   /*****PROPIEDADES HEADER*****/
 
@@ -459,7 +459,7 @@ MOBILE FIRST
     padding-bottom: 30px;
     color: rgb(80, 69, 69);
     font-size: 5mm;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
   }
   header a {
@@ -563,7 +563,7 @@ MOBILE FIRST
   footer {
     grid-area: footer;
     text-align: center;
-    background-image: url(/img/imagpri.jpeg);
+    background-image: url(../img/imagpri.jpeg);
     background-size: cover;
     color: rgb(80, 69, 69);
   }

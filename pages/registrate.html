@@ -1,47 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>By Yoska Designs-Productos</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico" />
+
+    <title>By Yoksa Desings</title>
+    <!-- LINK DE BOOTSTRAP CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS LOCAL -->
+    <link rel="stylesheet" href="../css/stylesheet.css" />
   </head>
   <body>
-    <header id="Inicio">
-      <h1>BY YOSKA DESIGNS - REGISTRATE</h1>
+    <!-- HEADER -->
+    <header class="contorno fixed-top">
+      <div>
+        <h1>By Yoska Desings</h1>
+        <h2>Designing your imagination</h2>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./registrate.html"
+                  >Registrate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
-    <hr />
-    <nav>
-              <span><a href="../index.html" class="sinsubrayar"> Inicio</a></span>
-        <span>
-          <a href="./productos.html" class="sinsubrayar"> Productos</a>
-        </span>
-        <span>
-          <a href="./contacto.html" class="sinsubrayar"> Contacto</a>
-        </span>
-        <span>
-          <a href="./registrate.html" class="sinsubrayar"> Registrate</a>
-        </span>
-        <span>
-          <a href="./iniciarsesion.html" class="sinsubrayar"> Iniciar Sesión</a>
-        </span>
-       </nav>
-    <hr />
-    <main>contenido principal</main>
-    <footer class="alig-centrar">
-      <span class="fa fa-whatsapp" style="font-size: 36px">
-        </span>
-    <span class="fa fa-instagram" style="font-size: 36px"></span>
-        <p>WhatsApp | Instagram</p>
-        <h1 class="alig-centrar interlineado">By Yoska Designs</h1>
-        <h2 class="alig-centrar interlineado">Designing your imagination</h2>
-        <p class="alig-centrar interlineado-footer"></p>
-        &copy;2022 <a href="#Inicio" class="sinsubrayar"> By Yoska Designs</a>|
-        All Rights Reserved</p>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+      <div class="row" style="background-color: white; height: 30vh"></div>
+      <div class="container">
+        <div>
+          <h1 class="text-center" style="text-decoration: underline">
+            Registrate y Accede a todos nuestros Beneficios
+          </h1>
+          <form class="row g-3 m-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" />
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress"
+                placeholder="Calle 1234"
+              />
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Dirección 2</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputAddress2"
+                placeholder="Apartmento, Casa o Piso Nro."
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity" />
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Provincia</label>
+              <select id="inputState" class="form-select">
+                <option selected>Selecciona...</option>
+                <option>Buenos Aires</option>
+                <option>Ciudad Autónoma de Buenos Aires</option>
+                <option>Catamarca</option>
+                <option>Chaco</option>
+                <option>Chubut</option>
+                <option>Córdoba</option>
+                <option>Corrientes</option>
+                <option>Entre Ríos</option>
+                <option>Formosa</option>
+                <option>Jujuy</option>
+                <option>La Pampa</option>
+                <option>La Rioja</option>
+                <option>Mendoza</option>
+                <option>Misiones</option>
+                <option>Neuquén</option>
+                <option>Río Negro</option>
+                <option>Salta</option>
+                <option>San Juan</option>
+                <option>San Luis</option>
+                <option>Santa Cruz</option>
+                <option>Santa Fe</option>
+                <option>Santiago del Estero</option>
+                <option>
+                  Tierra del Fuego, Antártida e Islas del Atlántico Sur
+                </option>
+                <option>Tucumán</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Código Postal</label>
+              <input type="text" class="form-control" id="inputZip" />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="gridCheck"
+                />
+                <label class="form-check-label" for="gridCheck">
+                  Al presionar aca aceptas los términos de privacidad de By
+                  Yoska Designs
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-secondary transicion mb-5">
+                Registrarse &raquo;
+              </button>
+            </div>
+          </form>
+        </div>
+        <hr />
+      </div>
+    </main>
+
+    <!-- FIN DEL MAIN -->
+    <!-- FOOTER -->
+    <div class="container">
+      <footer class="py-3 my-1">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="./registrate.html" class="nav-link px-2 text-muted"
+              >Registrate</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./galeria.html" class="nav-link px-2 text-muted"
+              >Galeria</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="./contacto.html" class="nav-link px-2 text-muted"
+              >Contacto</a
+            >
+          </li>
+          
+          
+          <li class="nav-item">
+            <a href="./productos.html" class="nav-link px-2 text-muted"
+              >Productos</a
+            >
+          </li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 By Yoska Designs</p>
+      </footer>
+    </div>
+    <!-- Bootstrap JavaScript-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

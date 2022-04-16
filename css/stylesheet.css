@@ -3,11 +3,11 @@ header {
   background-size: cover;
 }
 @font-face {
-  font-family: "Merienda-One";
+  font-family: "Merienda-One" sans-serif;
   src: url("../font/MeriendaOne-regular.ttf");
 }
 * {
-  font-family: "Merienda-One";
+  font-family: "Merienda-One" sans-serif;
 }
 header h1,
 h2 {

@@ -4,9 +4,9 @@ header {
 }
 @font-face {
   font-family: "meriendaone";
-  src: url(../font/meriendaoneregular.ttf);
+  src: url("../font/meriendaoneregular.ttf");
 }
-* {
+header, main, footer, body{
   font-family: "meriendaone";
 }
 header h1,
@@ -41,10 +41,4 @@ h2 {
   background-color: turquoise;
   color: white;
   border: solid 3px turquoise;
-}
-body,
-main,
-header,
-footer {
-  font-family: "meriendaone";
 }

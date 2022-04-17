@@ -3,11 +3,11 @@ header {
   background-size: cover;
 }
 @font-face {
-  font-family: "Merienda-One" sans-serif;
-  src: url("../font/MeriendaOne-regular.ttf");
+  font-family: "Merienda-One";
+  src: url(../font/MeriendaOne-regular.ttf);
 }
 * {
-  font-family: "Merienda-One" sans-serif;
+  font-family: "Merienda-One";
 }
 header h1,
 h2 {
@@ -16,29 +16,29 @@ h2 {
 .contorno {
   border: solid 3px turquoise;
 }
-.transicion{
+.transicion {
   transition: all 1s;
 }
-.transicion:hover{
+.transicion:hover {
   width: 50%;
   height: 56%;
   background-color: turquoise;
   border: solid 3px turquoise;
 }
-.transicion2{
+.transicion2 {
   transition: all 1s;
 }
-.transicion2:hover{
+.transicion2:hover {
   width: 100%;
- background-color: turquoise;
+  background-color: turquoise;
   border: solid 3px turquoise;
 }
-.transicion3{
+.transicion3 {
   transition: all 1s;
 }
-.transicion3:hover{
+.transicion3:hover {
   width: 100%;
- background-color: turquoise;
- color: white;
+  background-color: turquoise;
+  color: white;
   border: solid 3px turquoise;
 }

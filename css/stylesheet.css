@@ -4,7 +4,7 @@ header {
 }
 @font-face {
   font-family: "meriendaone";
-  src: url("../font/meriendaone-regular.ttf");
+  src: url(../font/meriendaoneregular.ttf);
 }
 * {
   font-family: "meriendaone";

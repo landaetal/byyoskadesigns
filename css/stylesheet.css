@@ -4,7 +4,7 @@ header {
 }
 @font-face {
   font-family: "Merienda-One";
-  src: url(../font/MeriendaOne-regular.ttf);
+  src: url("../font/MeriendaOne-regular.ttf");
 }
 * {
   font-family: "Merienda-One";
@@ -41,4 +41,10 @@ h2 {
   background-color: turquoise;
   color: white;
   border: solid 3px turquoise;
+}
+body,
+main,
+header,
+footer {
+  font-family: "Merienda-One";
 }

@@ -15,40 +15,38 @@ header h2 {
   font-family: "meriendaoneregular";
 }
 
-.contorno {
+.contorno, .transicion2:hover, .transicion2, .transicion:hover, .transicion3:hover {
   border: solid 3px turquoise;
 }
 
-.transicion {
+.transicion, .transicion3 {
   transition: all 1s;
 }
 
-.transicion:hover {
-  width: 50%;
-  height: 56%;
+.transicion:hover, .transicion3:hover {
+  width: 80%;
   background-color: turquoise;
-  border: solid 3px turquoise;
-}
-
-.transicion2 {
-  transition: all 1s;
 }
 
 .transicion2:hover {
-  width: 100%;
-  background-color: turquoise;
-  border: solid 3px turquoise;
-}
-
-.transicion3 {
-  transition: all 1s;
+  width: 300px;
+  height: 300px;
 }
 
 .transicion3:hover {
   width: 100%;
   background-color: turquoise;
   color: white;
-  border: solid 3px turquoise;
+}
+
+.photosize {
+  width: 320px;
+  height: 350px;
+}
+
+.photosize2 {
+  width: 300px;
+  height: 400px;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

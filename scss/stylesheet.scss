@@ -1,45 +1,55 @@
 header {
-    background-image: url(../img/imagpri.jpeg);
-    background-size: cover;
-    header h1,
+  background-image: url(../img/imagpri.jpeg);
+  background-size: cover;
+  header h1,
   h2 {
     padding-left: 15px;
   }
-  }
-  @font-face {
-    font-family: "meriendaoneregular";
-    src: url("../font/meriendaoneregular.ttf");
-  }
-  * {
-    font-family: "meriendaoneregular";
-  }
-  
-  .contorno {
-    border: solid 3px turquoise;
-  }
-  .transicion {
-    transition: all 1s;
-  }
-  .transicion:hover {
-    width: 50%;
-    height: 56%;
-    background-color: turquoise;
-    border: solid 3px turquoise;
-  }
-  .transicion2 {
-    transition: all 1s;
-  }
-  .transicion2:hover {
-    width: 100%;
-    background-color: turquoise;
-    border: solid 3px turquoise;
-  }
-  .transicion3 {
-    transition: all 1s;
-  }
-  .transicion3:hover {
-    width: 100%;
-    background-color: turquoise;
-    color: white;
-    border: solid 3px turquoise;
-  }
+}
+@font-face {
+  font-family: "meriendaoneregular";
+  src: url("../font/meriendaoneregular.ttf");
+}
+* {
+  font-family: "meriendaoneregular";
+}
+
+.contorno {
+  border: solid 3px turquoise;
+}
+.transicion {
+  transition: all 1s;
+}
+.transicion:hover {
+  @extend .contorno;
+  width: 80%;
+  background-color: turquoise;
+}
+.transicion2 {
+  @extend .contorno;
+}
+.transicion2:hover {
+  @extend .contorno;
+  width: 300px;
+  height: 300px;
+}
+.transicion3 {
+  @extend .transicion;
+}
+.transicion3:hover {
+  @extend .contorno;
+  width: 100%;
+  background-color: turquoise;
+  color: white;
+}
+.photosize {
+  width: 320px;
+  height: 350px;
+}
+@mixin tamano($horizontal, $vertical) {
+  width: $horizontal;
+  height: $vertical;
+}
+.photosize2 {
+  @include tamano(300px, 400px);
+}

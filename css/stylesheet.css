@@ -49,4 +49,11 @@ header h2 {
   height: 400px;
 }
 
+@media (min-width: 350px) and (max-width: 598px) {
+  .transicion:hover, .transicion3:hover {
+    width: 90%;
+    border: solid 3px turquoise;
+  }
+}
+
 /*# sourceMappingURL=stylesheet.css.map */

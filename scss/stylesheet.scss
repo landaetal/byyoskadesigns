@@ -53,3 +53,9 @@ header {
 .photosize2 {
   @include tamano(300px, 400px);
 }
+@media (min-width: 350px) and (max-width: 598px) {
+  .transicion:hover {
+    width: 90%;
+    border: solid 3px turquoise;
+  }
+}
